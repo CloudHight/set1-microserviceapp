@@ -548,7 +548,7 @@ spec:
       serviceAccountName: default
       containers:
       - name: server
-        image: franklinonyia/shippingservice:3
+        image: franklinonyia/shippingservice:2
         ports:
         - containerPort: 50051
         env:
