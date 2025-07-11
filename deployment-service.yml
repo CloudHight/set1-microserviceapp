@@ -143,7 +143,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: franklinonyia/recommendationservice:1
+        image: franklinonyia/recommendationservice:2
         ports:
         - containerPort: 8080
         readinessProbe:
