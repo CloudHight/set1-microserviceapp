@@ -654,7 +654,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: franklinonyia/adservice:2
+        image: franklinonyia/adservice:3
         ports:
         - containerPort: 9555
         env:
