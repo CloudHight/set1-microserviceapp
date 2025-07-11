@@ -81,7 +81,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: server
-          image: franklinonyia/checkoutservice:1
+          image: franklinonyia/checkoutservice:2
           ports:
           - containerPort: 5050
           readinessProbe:
