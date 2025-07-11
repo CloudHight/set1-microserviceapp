@@ -401,7 +401,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: franklinonyia/cartservice:1
+        image: franklinonyia/cartservice:2
         ports:
         - containerPort: 7070
         env:
