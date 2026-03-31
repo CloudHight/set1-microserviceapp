@@ -8,7 +8,7 @@ pipeline {
         GIT_REPO_URL = "https://github.com/CloudHight/set1-microserviceapp.git"
         STAGE_BRANCH = "stage"
         MAIN_BRANCH = "main"
-        SLACK_CHANNEL = "#16th-june-ecommerce-project-using-kops-eu-team1"
+        SLACK_CHANNEL = "9th-march-2026-kops-microservice-project"
     }
     
     stages {
