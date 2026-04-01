@@ -261,7 +261,7 @@ metadata:
 spec:
   type: NodePort
   selector:
-    app: frontend
+    app: frontend-external
   ports:
   - name: http
     port: 80
@@ -270,7 +270,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: frontend-external
+  name: frontend
 spec:
   type: LoadBalancer
   selector:
