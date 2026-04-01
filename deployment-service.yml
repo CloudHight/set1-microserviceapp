@@ -257,11 +257,11 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: frontend
+  name: frontend-external
 spec:
   type: NodePort
   selector:
-    app: frontend-external
+    app: frontend
   ports:
   - name: http
     port: 80
