@@ -28,7 +28,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: franklinonyia/emailservice:2
+        image: franklinonyia/emailservice:4
         ports:
         - containerPort: 8080
         env:
