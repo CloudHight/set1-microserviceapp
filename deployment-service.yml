@@ -200,7 +200,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: server
-          image: franklinonyia/frontend:2
+          image: franklinonyia/frontend:4
           ports:
           - containerPort: 8080
           readinessProbe:
