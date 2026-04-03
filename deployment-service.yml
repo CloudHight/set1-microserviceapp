@@ -465,7 +465,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: franklinonyia/loadgenerator:2
+        image: franklinonyia/loadgenerator:4
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
